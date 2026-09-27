@@ -21,7 +21,7 @@ _T = {}
 
 def _load(name):
     if name not in _T:
-        for d in (LUTDIR,)
+        for d in (LUTDIR,):
             p = os.path.join(d, name + ".npy")
             if os.path.exists(p):
                 _T[name] = torch.from_numpy(np.load(p)).to(DEV)
