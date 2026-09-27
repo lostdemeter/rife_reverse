@@ -1,0 +1,4 @@
+numpy
+Pillow
+# optional: torch (CUDA) unlocks the bit-exact fast backend (--torch, ~60x)
+# torch --index-url https://download.pytorch.org/whl/cu130

@@ -1,0 +1,18 @@
+# baked/cached artifacts (built locally, never uploaded)
+*.npy
+rife-v2.3/
+luts/
+captures/
+mid_*/
+seq*/
+*.log
+__pycache__/
+*.pyc
+.tmp/
+# compiled C test binaries (rebuild via make)
+c_port/test_bridge
+c_port/test_conv
+c_port/test_geo
+c_port/test_arith
+# generated C LUT header (rebuild: python3 scripts/export_luts.py)
+c_port/luts.h
